@@ -1,0 +1,41 @@
+<style>
+  @media (min-width: 767px) and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+    selector .elementor-posts-container {
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: space-between;
+    }
+    selector .elementor-posts-container > div {
+      width: 32%;
+    }
+  }
+  @media (min-width: 767px) {
+    selector .elementor-posts-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      grid-gap: 2%;
+    }
+    selector .elementor img {
+      width: 100%;
+    }
+    selector
+      .elementor-element.elementor-element-17cfe93
+      > .elementor-container {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    selector h3.elementor-heading-title {
+      color: #003e6b;
+    }
+    selector h4.elementor-heading-title {
+      text-transform: uppercase;
+    }
+    selector ul.slick-dots {
+      bottom: -50px;
+    }
+  }
+</style>
